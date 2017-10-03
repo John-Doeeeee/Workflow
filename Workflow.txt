@@ -1,0 +1,308 @@
+
+ ===============================
+ = GitHub - A dynamic tutorial =  
+ ===============================
+ 
+ This is a GitHub tutorial with a specific object in mind:
+ to explain just those features of GitHub that will be
+ needed by M* and J* in their development of M****H****.
+ This tutorial is saved in a file called Workflow.txt.
+ 
+ Workflow.txt is more than a specialized tutorial; it is a
+ dynamic tutorial. In this case, the word 'dynamic' means
+ that M* and J* will collaboratively develop Workflow.txt
+ by modifying their own versions of Workflow.txt, submitting 
+ their versions for comment by the other, and possibly saving 
+ their version as the producion version of Workflow.txt.
+
+ Of course, editing and maintaining the various versions
+ of Workflow.txt will be done with GitHub: specifically,
+ with the features of GitHub explained in this current
+ document, Workflow.txt.
+
+
+ =========================================================
+ = Introduction (from https://readwrite.com/2013/09/30/  =
+ = understanding-github-a-journey-for-beginners-part-1/) =
+ =========================================================
+
+ GitHub is the largest online storage space of collaborative 
+ works that exists in the world. Git is the software that runs 
+ at the heart of GitHub. Git is version control software, which 
+ means it manages changes to a project without overwriting any 
+ part of that project. The problem with Git is that it’s so 
+ ancient that we have to use the command line in order to 
+ access it. This can be a difficult proposition for modern 
+ computer users. That’s where GitHub comes in.
+
+ GitHub makes Git easier to use in two ways. First, if you 
+ download the GitHub software to your computer, it provides a 
+ visual interface to help you manage your version-controlled 
+ projects locally. Second, creating an account on GitHub.com 
+ brings your version-controlled projects to the Web, and ties 
+ in social network features for good measure. You can browse 
+ other GitHub users’ projects, and even download copies for 
+ yourself to alter and learn from. Other users can do the same 
+ with your public projects, and even spot errors and suggest 
+ fixes. Either way, no data is lost because Git saves a 
+ “snapshot” of every change.
+
+
+ =============================================
+ = Words People Use When They Talk About Git =
+ =============================================
+
+ Command 
+  Line:      The computer program we use to input Git commands. 
+             On a Mac, it’s called Terminal. On a PC, it’s a 
+             non-native program that you download when you download 
+             Git for the first time. In both cases, you type 
+             text-based commands, known as prompts, into the screen, 
+             instead of using a mouse.
+
+ Repository: A directory or storage space where your projects can live. 
+             Sometimes GitHub users shorten this to “repo.” It can be 
+             local to a folder on your computer, or it can be a storage 
+             space on GitHub or another online host. You keep code files, 
+             text files, image files, you name it, inside a repository.
+
+ Version 
+  Control:   Basically, the purpose Git was designed to serve. 
+             When you have a Microsoft Word file, you either overwrite 
+             every saved file with a new save, or you save multiple 
+             versions. With Git, you don’t have to. It keeps “snapshots” 
+             of every point in time in the project’s history, so you 
+             can never lose or overwrite it.
+
+ Commit:     This is the command that gives Git its power. When you commit, 
+             you are taking a “snapshot” of your repository at that point 
+             in time, giving you a checkpoint to which you can reevaluate 
+             or restore your project to any previous state.
+
+ Branch:     How do multiple people work on a project at the same time 
+             without Git getting them confused? Usually, they “branch off” 
+             of the main project with their own versions full of changes 
+             they themselves have made. After they’re done, it’s time to 
+             “merge” that branch back with the “master,” the main directory 
+             of the project.
+
+
+ ===================
+ = Getting started =
+ ===================
+
+ The first step is to sign up for a new GitHub account:
+
+  https://help.github.com/articles/signing-up-for-a-new-github-account/
+
+ Then download the GitHub Desktop software from:
+
+  https://desktop.github.com/
+
+ Finally, create a repository by the following steps.
+
+  Step 1. Open GitHub Desktop.
+
+  Step 2. In the File menu, click 'New repository...'.
+
+  Step 3. Enter the Name 'html-examples'.
+          and Local path 'C:\Users\myusername\Desktop'.
+
+  Step 4. Click the 'Create repository' button.
+
+ The next section, Change Workflow.txt, assumes that a
+ file with the name Workflow.txt is in the directory
+ 'html-examples' (see Step 3 above.) If 'Workflow.txt' 
+ does not exist, right click the whitespace, select 
+ New > Text Document, name it 'Workflow.txt', open it 
+ and enter the steps above and below, and save it in 
+ 'html-examples'.
+
+ NOTE: Throughout this tutorial, the word 'repository' 
+       refers to the physical directory
+          
+         C:\Users\myusername\Desktop\html-examples
+       
+       on M*'s or J*'s computer. Any changes to the 
+       'repository' are changes to the files in this 
+       specific directory.
+        
+
+ =======================
+ = Change Workflow.txt =
+ =======================
+
+ The whole point of this tutorial is for two people to make 
+ changes to the text file Workflow.txt while remembering
+ their earlier changes and not getting in each other's way.
+ Here is how each person changes his or her Workflow.txt.
+
+ Step 1. Open GitHub Desktop.
+
+ Step 2. In the Repository menu, click 'Show in Explorer'.
+
+ Step 3. Open 'html-examples'.
+
+ Step 4. Open 'Workflow.txt' in a text editor.
+
+ Step 5. Edit 'Workflow.txt' and save it in 'html-examples'.
+
+ Step 6. Exit 'File Explorer'.
+
+ On the left of the GitHub window, you will see
+
+     1 changed file
+     Workflow.txt
+
+ In the center of the GitHub window, you will see the contents 
+ of Workflow.txt with the removed lines (red) prefixed with a 
+ '-' sign and the added lines (green) prefixed with a '+' sign. 
+
+
+ =======================
+ = Commit a repository =
+ =======================
+
+ When you commit a repository, you are taking a “snapshot” of 
+ your repository at that point in time. Here is how to commit
+ a repository.
+
+ After changing Workflow.txt as shown in the previous section,
+ on the left of the GitHub window you will see:
+
+     1 changed file
+     Workflow.txt
+ 
+ In the lower-left of the GitHub window, enter a Summary and a
+ Description of your changes and click the 'Commit to master' 
+ button. On the left of the GitHub window you will see:
+
+     0 changed files
+ 
+ In the center of the GitHub window, you will see the contents 
+ of Workflow.txt with the removed lines (red) prefixed with a 
+ '-' sign and the added lines (green) prefixed with a '+' sign. 
+
+
+ NOTE: When you click the 'Commit to master' button, all changed 
+       files are updated in the repository. In this case, 
+       Workflow.txt is the only file that was changed, and is the 
+       only file to be updated. Later, we may see statements like
+
+         2 changed files
+         Sample.html
+         Workflow.txt
+               
+       In this case, and both files will be updated in the
+       repository when the 'Commit to master' button is clicked.
+
+
+ ===============
+ = Sample.html =
+ ===============
+
+ We introduce a second file, named Sample.html, for two reasons.
+ The first is a demonstration of working with more than one file at
+ a time in the GitHub Desktop environment. The second illustrates 
+ 'reverting' to an earlier version of a file, using a throw-away 
+ file such as Sample.html which is easily restored by hand if 
+ things go wrong. We start by creating the file Sample.html.
+
+ Step 1. Open GitHub Desktop.
+
+ Step 2. In the Repository menu, click 'Show in Explorer'.
+
+ Step 3. Open 'html-examples'. Right click the whitespace, 
+         select New > Text Document, and name it 'Sample.html'.
+
+ Step 4. Open Sample.html in a text editor and enter the lines:
+ 
+     <!doctype html>
+     <html>
+       <head>
+       </head>
+       <body>
+         <script>
+           // JavaScript comments go here.
+         </script>
+       </body>
+     </html>
+
+ Step 5. Save Sample.html in 'html-examples'.
+
+ Step 6. Exit 'File Explorer'.
+
+ On the left of the GitHub window you will see the following statements,
+ assuming the latest changes to Workflow.txt have not been committed:
+
+     2 changed files
+     Sample.html
+     Workflow.txt
+
+ In the Changes tab, click Sample.html. In the center of the 
+ GitHub window, you will see the contents of Sample.html
+ with the added lines (green) prefixed with a '+' sign. 
+
+ The next section, 'The History tab', shows how to 'revert'
+ to an earlier version of the repository.
+
+ WARNING: In the next section we will be reverting to earlier
+          versions of some files. You should use File Explorer 
+          to make a private copy of Workflow.txt to avoid
+          the consequences accidental changes.  
+
+
+ ===================
+ = The History tab =
+ ===================
+
+ Click the History tab to see a list of commited changes to
+ Workflow.txt and other files. The most recent updates are
+ at the top of the list. Click an item in this list to see 
+ the changes at that point in time.
+
+ To illustrate how to 'revert' to another version of the 
+ repository, we will start with a clean slate. That is,
+ follow the steps in the section 'Commit a repository' 
+ to commit all current changes, if any. On the left of 
+ the GitHub window you should now see:
+
+     0 changed files
+ 
+ Next, follow the steps in the section 'Change Workflow.txt'
+ (with 'Workflow.txt' replaced with 'Sample.txt') and add the
+ following line to Sample.html just above the </script> tag. 
+
+           // Comment number 1.
+
+ Next, exit 'File Explorer' and you should see:
+
+     1 changed files
+     Sample.txt
+
+ Finally, follow the steps in the section 'Commit a repository' 
+ to commit all current changes, if any. On the left of 
+ the GitHub window you should now see:
+
+     0 changed files
+ 
+ If you select 'Show in explorer', in the Repository menu, and look
+ the file Sample.html, you will see the two comments:
+
+           // JavaScript comments go here.
+           // Comment number 1.
+
+ Click the History tab. You should see the latest versions of the 
+ repository at the top of the list. Right click the latest version
+ and select
+
+   Revert this commit
+
+ You will see 'Revert "your Description"' If you look at Sample.html
+ in File Explorer, you will see the original file without the line
+
+   // Comment number 1.
+
+
+
+
