@@ -66,6 +66,8 @@
              space on GitHub or another online host. You keep code files, 
              text files, image files, you name it, inside a repository.
 
+		ASC uses the storage space on github to hold repositories.
+
  Version 
   Control:   Basically, the purpose Git was designed to serve. 
              When you have a Microsoft Word file, you either overwrite 
@@ -119,13 +121,23 @@
  'html-examples'.
 
  NOTE: Throughout this tutorial, the word 'repository' 
-       refers to the physical directory
+       refers to the location on github
           
+	Repo homepage:
+       	https://github.com/John-Doeeeee/Workflow 
+	
+	Branch location:
+       	https://github.com/John-Doeeeee/Workflow/tree/WorkingBranchMG
+               
+NOTE2: Throughout this tutorial, the word 'clone' or  
+       'working folder' or 'local copy' or 'working copy'
+       refers to the physical directory
+
          C:\Users\myusername\Desktop\html-examples
        
-       on M*'s or J*'s computer. Any changes to the 
-       'repository' are changes to the files in this 
-       specific directory.
+       on M*'s or J*'s computer. Changes will display in github desktop
+	and will need to be commited and pushed to appear in the repo on github.
+	
         
 
  =======================
