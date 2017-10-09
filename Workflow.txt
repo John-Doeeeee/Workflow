@@ -107,14 +107,14 @@
 
   Step 2. In the File menu, click 'New repository...'.
 
-  Step 3. Enter the Name 'html-examples'.
+  Step 3. Enter a Name such as 'Workflow'.
           and Local path 'C:\Users\myusername\Desktop'.
 
   Step 4. Click the 'Create repository' button.
 
  The next section, Change Workflow.txt, assumes that a
  file with the name Workflow.txt is in the directory
- 'html-examples' (see Step 3 above.) If 'Workflow.txt' 
+ 'Workflow' (see Step 3 above.) If 'Workflow.txt' 
  does not exist, right click the whitespace, select 
  New > Text Document, name it 'Workflow.txt', open it 
  and enter the steps above and below, and save it in 
@@ -133,7 +133,7 @@ NOTE2: Throughout this tutorial, the word 'clone' or
        'working folder' or 'local copy' or 'working copy'
        refers to the physical directory
 
-         C:\Users\myusername\Desktop\html-examples
+         C:\Users\myusername\Desktop\Workflow
        
        on M*'s or J*'s computer. Changes will display in github desktop
 	and will need to be commited and pushed to appear in the repo on github.
@@ -153,11 +153,11 @@ NOTE2: Throughout this tutorial, the word 'clone' or
 
  Step 2. In the Repository menu, click 'Show in Explorer'.
 
- Step 3. Open 'html-examples'.
+ Step 3. Open 'Workflow'.
 
  Step 4. Open 'Workflow.txt' in a text editor.
 
- Step 5. Edit 'Workflow.txt' and save it in 'html-examples'.
+ Step 5. Edit 'Workflow.txt' and save it in 'Workflow'.
 
  Step 6. Exit 'File Explorer'.
 
@@ -224,7 +224,7 @@ NOTE2: Throughout this tutorial, the word 'clone' or
 
  Step 2. In the Repository menu, click 'Show in Explorer'.
 
- Step 3. Open 'html-examples'. Right click the whitespace, 
+ Step 3. Open 'Workflow'. Right click the whitespace, 
          select New > Text Document, and name it 'Sample.html'.
 
  Step 4. Open Sample.html in a text editor and enter the lines:
@@ -240,7 +240,7 @@ NOTE2: Throughout this tutorial, the word 'clone' or
        </body>
      </html>
 
- Step 5. Save Sample.html in 'html-examples'.
+ Step 5. Save Sample.html in 'Workflow'.
 
  Step 6. Exit 'File Explorer'.
 
