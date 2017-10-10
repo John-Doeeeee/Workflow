@@ -1,6 +1,6 @@
 
  ===============================
- = GitHub - A dynamic tutorial =  
+ = GitHub - A dynamic tutorial ==  
  ===============================
  
  This is a GitHub tutorial with a specific object in mind:
