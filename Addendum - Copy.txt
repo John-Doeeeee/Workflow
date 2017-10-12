@@ -1,0 +1,21 @@
+Creating a Branch Using Github Desktop (GD)
+A github repository can be branched in order to protect the original or main branch of documents. A branch is also useful to provide separate areas for different contributors to work without conflict. Use the following instructions to create a branch using github desktop:
+1. Open Github Desktop (GD)  and set the Current Repository to Workflow
+2. Select Branch -> New Branch and enter "TestBranch" or "WorkingBranchJH" and then click the blue button "Create branch"
+3. Notice that your current branch is now TestBranch. Publish the branch to github. Use your browser to go to github.com and confirm that your new branch is there in the repository.
+
+Creating a Branch Using GitHub Desktop (GD)
+A GitHub repository is "branched" in order to protect the master or main branch of documents. Branches are separate areas in which different contributors work without conflict. Use the following instructions to create a branch using GitHub Desktop:
+1. Open Github Desktop (GD) and set the 'Current repository' to Workflow.
+2. Select Branch > New branch. Enter "BranchMG" ( or "BranchJH" ) and click the blue button 'Create branch'. Notice that your 'Current branch' is now BranchMG ( or BranchJH  ). 
+3. Select 'Publish branch' to publish this branch to GitHub. Notice that 'Publish branch' changes to 'Pushing to origin' and then to 'Fetch origin'.
+4. Select Repository > View on GitHub to go to github.com.  Select Code > Branch and confirm that BranchMG ( or BranchJH  ) is in the repository.
+
+
+Cloning a repository
+Cloning copies the contents of a repository from github.com to a folder on a computer hard drive. Use GD to create the clone as follows:
+1. In GD got to File -> Clone Repository. Your repositories from github.com should be listed there. Select the repository you want to clone, such as Workflow.
+2. Note that when you select a repository, the Local Path will update. Inspect the path and change it if neccessary. A convenient location is C:\Users\username\Desktop\Workflow. Click on Clone to initiate the download from github.com. 
+3. A local copy of the repository contents has been created which you can confirm by selecting Repository -> Show in Explorer, which brings up MS Windows File Explorer opened to the correct location on your computer. 
+
+

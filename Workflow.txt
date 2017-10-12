@@ -1,6 +1,7 @@
 
  ===============================
- = GitHub - A dynamic tutorial ===  
+ = GitHub - A dynamic tutorial =
+ =     updated 2017-10-12      = 
  ===============================
  
  This is a GitHub tutorial with a specific object in mind:
@@ -99,53 +100,112 @@
 
   https://desktop.github.com/
 
- Finally, create a repository by the following steps.
+
+ =======================
+ = Create a reporitory =
+ =======================
+
+ Next, create a repository by the following steps.
 
   Step 1. Open GitHub Desktop.
 
   Step 2. In the File menu, click 'New repository...'.
 
-  Step 3. Enter the Name 'html-examples'.
-          and Local path 'C:\Users\myusername\Desktop'.
+  Step 3. Enter a Name such as 'Workflow' and
+          Local path 'C:\Users\myusername\Desktop'.
 
   Step 4. Click the 'Create repository' button.
 
- The next section, Change Workflow.txt, assumes that a
- file with the name Workflow.txt is in the directory
- 'html-examples' (see Step 3 above.) If 'Workflow.txt' 
+
+ The following sections, assume that a file with
+ the name Workflow.txt is in the directory
+ 'Workflow' (see Step 3 above.) If 'Workflow.txt' 
  does not exist, right click the whitespace, select 
  New > Text Document, name it 'Workflow.txt', open it 
  and enter the steps above and below, and save it in 
- 'html-examples'.
+ 'Workflow'.
 
  NOTE: Throughout this tutorial, the word 'repository' 
-       refers to the physical directory
-          
-         C:\Users\myusername\Desktop\html-examples
+       refers to the location on GitHub
        
-       on M*'s or J*'s computer. Any changes to the 
-       'repository' are changes to the files in this 
-       specific directory.
-        
+       Repo homepage:
+         https://github.com/John_Doeeeee/Workflow
+
+       Branch location:
+         https://github.com/John_Doeeeee/Workflow/tree/branchjh
+
+       The word 'clone' or 'working folder' or 'local copy' or 
+       'working copy' refers to the physical directory
+
+         C:\Users\myusername\Desktop\Workflow
+     
+       on M*'s or J*'s computer. Changes will display in the GitHb 
+       Desktop and will need to be committed and pushed to appeaar 
+       in the repo on GitHub.
+
+
+ ===================
+ = Create a Branch =
+ ===================
+
+ A GitHub repository is "branched" in order to protect the master or main 
+ branch of documents. Branches are separate areas in which different 
+ contributors work without conflict. Use the following instructions to 
+ create a branch using GitHub Desktop:
+
+ 1. Open Github Desktop (GD) and set the 'Current repository' to Workflow.
+
+ 2. Select Branch > New branch. Enter "BranchMG" ( or "BranchJH" ) and 
+    click the blue button 'Create branch'. Notice that your 'Current 
+    branch' is now BranchMG ( or BranchJH  ). 
+
+ 3. Select 'Publish branch' to publish this branch to GitHub. Notice that 
+    'Publish branch' changes to 'Pushing to origin' and then to 'Fetch origin'.
+
+ 4. Select Repository > View on GitHub to go to github.com.  Select Code > 
+    Branch and confirm that BranchMG ( or BranchJH  ) is in the repository.
+
+
+ ======================
+ = Clone a repository =
+ ======================
+
+ Cloning copies the contents of a repository from github.com to a folder on
+ a computer hard drive. Use GD to create the clone as follows:
+
+ 1. In Github Desktop go to File -> Clone Repository. Your repositories 
+    from github.com should be listed there. Select the repository you want 
+    to clone, such as Workflow. 
+
+ 2. Note that when you select a repository, the Local Path will update. 
+    Inspect the path and change it if neccessary. A convenient location is 
+ 
+      C:\Users\username\Desktop\Workflow. 
+
+    Click on Clone to initiate the download from github.com.
+ 
+ 3. A local copy of the repository contents has been created which you can 
+    confirm by selecting Repository -> Show in Explorer, which brings up MS 
+    Windows File Explorer opened to the correct location on your computer. 
+
 
  =======================
  = Change Workflow.txt =
  =======================
 
- The whole point of this tutorial is for two people to make 
- changes to the text file Workflow.txt while remembering
- their earlier changes and not getting in each other's way.
- Here is how each person changes his or her Workflow.txt.
+ The whole point of this tutorial is for two people to make changes to the 
+ text file Workflow.txt while remembering their earlier changes and not 
+ getting in each other's way. Here is how each person changes Workflow.txt.
 
  Step 1. Open GitHub Desktop.
 
  Step 2. In the Repository menu, click 'Show in Explorer'.
 
- Step 3. Open 'html-examples'.
+ Step 3. Open 'Workflow'.
 
  Step 4. Open 'Workflow.txt' in a text editor.
 
- Step 5. Edit 'Workflow.txt' and save it in 'html-examples'.
+ Step 5. Edit 'Workflow.txt' and save it in 'Workflow'.
 
  Step 6. Exit 'File Explorer'.
 
@@ -212,8 +272,8 @@
 
  Step 2. In the Repository menu, click 'Show in Explorer'.
 
- Step 3. Open 'html-examples'. Right click the whitespace, 
-         select New > Text Document, and name it 'Sample.html'.
+ Step 3. Open 'Workflow'. Right click the whitespace, select
+         New > Text Document, and name it 'Sample.html'.
 
  Step 4. Open Sample.html in a text editor and enter the lines:
  
@@ -228,7 +288,7 @@
        </body>
      </html>
 
- Step 5. Save Sample.html in 'html-examples'.
+ Step 5. Save Sample.html in 'Workflow'.
 
  Step 6. Exit 'File Explorer'.
 
